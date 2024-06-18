@@ -1,0 +1,80 @@
+/* Genel stil ayarları */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* açık gri tonunda arka plan */
+    margin: 0;
+    padding: 0;
+    color: #333; /* koyu gri renkli metin */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* beyaz arka plan */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px; /* büyük başlık font boyutu */
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    color: #666;
+    line-height: 1.8;
+    font-size: 16px; /* normal metin font boyutu */
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc; /* madde işaretleri */
+    padding-left: 20px; /* liste içi boşluk */
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 100%; /* iframe'in genişliği %100 */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff; /* mavi renkli bağlantılar */
+}
+
+footer a:hover {
+    text-decoration: underline; /* bağlantı hover efekti */
+}
